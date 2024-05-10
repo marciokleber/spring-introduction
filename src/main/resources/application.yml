@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-introduction
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/base
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true

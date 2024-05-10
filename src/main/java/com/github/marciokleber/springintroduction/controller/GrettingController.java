@@ -1,6 +1,6 @@
 package com.github.marciokleber.springintroduction.controller;
 
-import com.github.marciokleber.springintroduction.model.Greeting;
+import com.github.marciokleber.springintroduction.domain.model.Greeting;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
